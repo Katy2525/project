@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия дизайна интерьера Design House</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="styles/lightbox.min.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container"> 
+
+            <a href="index.html" class="header__logo">
+                <img src="images/logo.svg" alt="logo">
+            </a>  
+            
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__link">О нас</a></li>
+                        <li><a href="services.html" class="menu__link">Услуги</a></li>
+                        <li><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+                        <li><a href="#" class="menu__link">Цены</a></li>
+                        <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div> 
+
+            <button type = "button" onclick="openModalWindow();" class="header__button button button_dark button_small">Заказать дизайн</button> 
+        </div>    
+    </header>
+
+    <main class="page page-home">
+
+        <section class="main-block">
+            <div class="main-block__slider">
+                <div>
+                    <img src="images/content/kitchen-and-living-room-dark-green.jpg" alt="kitchen and living room dark-green">
+                </div>
+                <div>
+                    <img src="images/content/living-room-dark-green.jpg" alt="living room dark-green">
+                </div>
+                <div>
+                    <img src="images/content/bedroom-and-dressing-room.jpg" alt="bedroom and dressing room">
+                </div>
+               
+            </div>
+            <div class="main-block__banner">
+                <img src="images/logo-title.svg" alt="logo-title">
+            </div>    
+        </section>
+
+        <section class="best-works">
+            <div class="best-works__container">
+         
+                <h2 class="best-works__title">Портфолио лучших работ</h2>
+                       
+                <div class="best-works__gallery gallery">
+                    <a href="images/content/green-and-blue-sofas.jpg" data-lightbox="images-set" data-title='ЖК "Матвеевский"'>
+                        <img src="images/content/green-and-blue-sofas.jpg" alt="green and blue sofas">
+                    </a>
+                    <a href="images/content/dressing-table.jpg" data-lightbox="images-set" data-title='ЖК "Променад"'>
+                        <img src="images/content/dressing-table.jpg" alt="dressing table">
+                    </a>
+                    <a href="images/content/sofa-in-parlor.jpg" data-lightbox="images-set" data-title='ЖК "Монтерей"'>
+                        <img src="images/content/sofa-in-parlor.jpg" alt="sofa in parlor">
+                    </a>
+                    <a href="images/content/bed-blue.jpg" data-lightbox="images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/bed-blue.jpg" alt="blue bed">
+                    </a>
+                    <a href="images/content/dining-room-brown.jpg" data-lightbox="images-set" data-title='ЖК "Триумф"'>
+                        <img src="images/content/dining-room-brown.jpg" alt="dining room brown">
+                    </a>
+                    <a href="images/content/living-room-brown.jpg" data-lightbox="images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/living-room-brown.jpg" alt="living room brown">
+                    </a>
+                    <a href="images/content/living-room-gray.jpg" data-lightbox="images-set" data-title='ЖК "Левада"'>
+                        <img src="images/content/living-room-gray.jpg" alt="living room gray">
+                    </a>
+                    <a href="images/content/dressing-room.jpg" data-lightbox="images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/dressing-room.jpg" alt="dressing room">
+                    </a>
+                    <a href="images/content/bedroom-beige.jpg" data-lightbox="images-set" data-title='ЖК "Парк Челюскинцев"'>
+                        <img src="images/content/bedroom-beige.jpg" alt="bedroom beige">
+                    </a>
+                    <a href="images/content/fireplace-horizontal.jpg" data-lightbox="images-set" data-title='ЖК "Парк Челюскинцев"'>
+                        <img src="images/content/fireplace-horizontal.jpg" alt="fireplace horizontal">
+                    </a>
+                    <a href="images/content/bathroom-brown.jpg" data-lightbox="images-set" data-title='ЖК "Променад"'>
+                        <img src="images/content/bathroom-brown.jpg" alt="bathroom brown">
+                    </a>
+                    <a href="images/content/living-room-beige.jpg" data-lightbox="images-set" data-title='ЖК "Левада"'>
+                        <img src="images/content/living-room-beige.jpg" alt="living room beige">
+                    </a>
+                </div>
+
+                <div class="best-works__footer">
+                    <p>Дизайн, который нельзя игнорировать</p>
+                    <a href="portfolio.html" class="button button_dark">Смотреть все работы</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="advantages__container">
+
+                <h2 class="advantages__title">Наши преимущества</h2>
+
+                <div class="advantages__list">
+                    <div class="advantages__item">
+                        <span class="advantages__icon">
+                            <img src="images/icons/cubes.svg" alt="cubes" class="wow zoomIn" data-wow-duration="1s" data-wow-offset="300">
+                        </span>
+                        <h3 class="advantages__subtitle">Полный спектр услуг</h3>
+                        <p class="advantages__text">Осуществляем работы &laquo;под ключ&raquo; от идеи до оплощения. Предоставляем бесплатные услуги авторского надзора и декорирования. Занимаемся согласованием
+                        перепланировок.</p>
+                    </div>
+
+                    <div class="advantages__item">
+                        <span class="advantages__icon">
+                            <img src="images/icons/clock.svg" alt="clock" class="wow zoomIn" data-wow-duration="1s" data-wow-offset="300">
+                        </span>
+                        <h3 class="advantages__subtitle">Сроки</h3>
+                        <p class="advantages__text">Выполняя абсолютно все работы, самостоятельно контролируя заказ материалов, мы гарантируем минимальные сроки
+                        производства работ от 4 месяцев в зависимости
+                        от сложности проекта.</p>
+                    </div>
+
+                    <div class="advantages__item">
+                        <span class="advantages__icon">
+                            <img src="images/icons/wallet.svg" alt="wallet" class="wow zoomIn" data-wow-duration="1s" data-wow-offset="300">
+                        </span>
+                        <h3 class="advantages__subtitle">Цена</h3>
+                        <p class="advantages__text">Частный подход к каждому заказчику исходя из поставленных задач и бюджета позволяет
+                            определить необходимый, но
+                            достаточный уровень проработки проекта и стоимость в каждом конкретном случае.</p>
+                    </div>
+
+                    <div class="advantages__item">
+                        <span class="advantages__icon">
+                            <img src="images/icons/sofa.svg" alt="sofa" class="wow zoomIn" data-wow-duration="1s" data-wow-offset="300">
+                        </span>
+                        <h3 class="advantages__subtitle">Комплектация</h3>
+                        <p class="advantages__text">Осуществляем поставку мебели, аксессуаров, сантехники и светильников из Европы и Китая дешевле, чем в магазинах города.
+                        Заказ отделочных материалов
+                        с корпоративными скидками
+                        в любых магазинах-салонах города.</p>
+                    </div>
+
+                    <div class="advantages__item">
+                        <span class="advantages__icon">
+                            <img src="images/icons/engineer.svg" alt="engineer" class="wow zoomIn" data-wow-duration="1s" data-wow-offset="300">
+                        </span>
+                        <h3 class="advantages__subtitle">Генподряд</h3>
+                        <p class="advantages__text">Отвечаем за объект в целом. Гарантируем качество работ и обязательность смежников. Организация всех видов работ по
+                        единому графику сократит сроки строительства и сэкономит ваши средства.</p>
+                    </div>
+
+                    <div class="advantages__item">
+                        <span class="advantages__icon">
+                            <img src="images/icons/home.svg" alt="home" class="wow zoomIn" data-wow-duration="1s" data-wow-offset="300">
+                        </span>
+                        <h3 class="advantages__subtitle">Страхование и гарантии</h3>
+                        <p class="advantages__text">Добровольное страхование объекта на весь период отделочных работ. Бесплатно исправляем все выявленные недочёты в течение
+                        двух лет после окончания ремонта.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services">
+
+            <div class="services__content">
+                <div class="services__container">
+                    <div class="services__body">
+
+                        <div class="services__text wow slideInUp" data-wow-duration="1s" data-wow-offset="200">
+                            
+                            <h2 class="services__title">Что мы предлагаем?</h2>
+
+                            <div class="services__item item">
+                                <div class="item__body">
+                                    <h3 class="item__subtitle">Дизайн интерьера</h3>
+                                    <p class="item__text">Проектируем эксклюзивный дизайн интерьера с учетом ваших пожеланий и наших задач.</p>
+                                </div>
+                                <a href="#" class="item__button button button_white button_small">Подробнее</a>
+                            </div>
+
+                            <div class="services__item item">
+                                <div class="item__body">
+                                    <h3 class="item__subtitle">Отделочные работы</h3>
+                                    <p class="item__text">Осуществляем все отделочные работы
+                                    &laquo;Под ключ&raquo; — от идеи до воплощения.
+                                    </p>
+                                </div>
+                                <a href="#" class="item__button button button_white button_small">Подробнее</a>
+                            </div>
+
+                            <div class="services__item item">
+                                <div class="item__body">
+                                    <h3 class="item__subtitle">Авторский надзор</h3>
+                                    <p class="item__text">Контролируем реализацию своих проектов от создания до воплощения в жизнь.
+                                    </p>
+                                </div>
+                                <a href="#" class="item__button button button_white button_small">Подробнее</a>
+                            </div>
+
+                            <div class="services__item item">
+                                <div class="item__body">
+                                    <h3 class="item__subtitle">Декорирование интерьера</h3>
+                                    <p class="item__text">Создаем единое гармоничное пространство с органично расставленными акцентами.
+                                    </p>
+                                </div>
+                                <a href="decoration.html" class="item__button button button_white button_small">Подробнее</a>
+                            </div>
+
+                            <div class="services__item item">
+                                <div class="item__body">
+                                    <h3 class="item__subtitle">Согласование перепланировки</h3>
+                                    <p class="item__text">Берем на себя все вопросы по взаимодействию с госорганами и получению разрешения.
+                                    </p>
+                                </div>
+                                <a href="#" class="item__button button button_white button_small">Подробнее</a>
+                            </div>
+
+                            <div class="services__item item">
+                                <div class="item__body">
+                                    <h3 class="item__subtitle">Архитектурное проектирование</h3>
+                                    <p class="item__text">Спроектируем Ваш дом лично для Вас с учетом эргономики и красоты, используя дизайнерское видение пространства.
+                                    </p>
+                                </div>
+                                <a href="#" class="item__button button button_white button_small">Подробнее</a>
+                            </div>
+
+                            <div class="services__item item">
+                                <div class="item__body">
+                                    <h3 class="item__subtitle">Авторская мебель</h3>
+                                    <p class="item__text">Вся мебель индивидуального изготовления в наших проектах реализуется лично нами. И мы гордимся нашим продуктом.
+                                    </p>
+                                </div>
+                                <a href="#" class="item__button button button_white button_small">Подробнее</a>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="services__image">
+                <img src="images/content/bar-counter-white.jpg" alt="img-services">
+            </div>
+
+        </section>
+
+        <section class="steps">
+            <div class="steps__container">
+
+                <div class="steps__image">
+                    <img src="images/content/dinner-table-white.jpg" alt="dinner table white">
+                    <img src="images/content/TV-viewing-area-white.jpg" alt="TV viewing area white">
+                    <img src="images/content/bedroom-gray.jpg" alt="bedroom gray">
+                    <img src="images/content/hallway-white.jpg" alt="hallway white">
+                </div>
+
+                <div class="steps__body wow slideInUp" data-wow-duration="1s" data-wow-offset="300">
+                    <h2 class="steps__title">Как мы работаем</h2>
+                    <ul class="steps__list">
+                        <li class="steps__item">
+                            <h3 class="steps__subtitle">Получаем вашу заявку</h3>
+                            <p class="steps__text">Созвонитесь с нами или отправьте сообщение на сайте.</p>
+                        </li>
+                        <li class="steps__item">
+                            <h3 class="steps__subtitle">Знакомимся</h3>
+                            <p class="steps__text">На первой встрече мы обсудим все подробности вашей задачи. Посмотрим портфолио нашей компании, обсудим различные наши проекты и заключим договор.</p>
+                        </li>
+                        <li class="steps__item">
+                            <h3 class="steps__subtitle">Выезжаем на объект</h3>
+                            <p class="steps__text">Встречаемся на объекте, чтобы провести необходимые замеры, фотофиксацию и заполнить подробное техзадание. Директор по строительству оценивает состояние объекта и объем работ.</p>
+                        </li>
+                        <li class="steps__item">
+                            <h3 class="steps__subtitle">Обсуждаем и согласовываем общий бюджет проекта</h3>
+                            <p class="steps__text">Расходы на "наполнение" интерьера, отделочные материалы, мебель и оборудование. Учитываем также примерную стоимость
+                                ремонтных работ по объекту.</p>
+                        </li>
+                        <li class="steps__item">
+                            <h3 class="steps__subtitle">Определяем планировочное решение</h3>
+                            <p class="steps__text">На этом этапе мы предлагаем несколько вариантов зонирования, расстановки мебели и оборудования. При необходимости
+                                выполним перепланировку и приступим
+                                к ее согласованию.</p>
+                        </li>
+                        <li class="steps__item">
+                            <h3 class="steps__subtitle">Разрабатываем стилевую концепцию</h3>
+                            <p class="steps__text">На основании ваших вкусов, с учетом модных тенденций
+                                и направлений, определяется каким будет стиль будущего интерьера. Мы создаем 3D модели каждого помещени, а вы получаете
+                                представление о том, как будет выглядеть ваш дом после ремонта.</p>
+                        </li>
+                        <li class="steps__item">
+                            <h3 class="steps__subtitle">Готовим рабочую документацию</h3>
+                            <p class="steps__text">На следующем этапе мы подготавливаем все необходимые рабочие чертежи. Вы получаете итоговую строительную смету, на
+                                основании которой будут вестись строительные работы.</p>
+                        </li>
+                        <li class="steps__item">
+                            <h3 class="steps__subtitle">Комплектация объекта</h3>
+                            <p class="steps__text">На завершающем этапе комплектации мы составляем спецификации мебели, светильников и предметов интерьера, и всего того,
+                                что использовано в интерьере в соответствии с согласованным ранее бюджетом объекта.</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    
+        <section class="reviews">
+            <div class="reviews__container">
+
+                <h2 class="reviews__title">Отзывы</h2>
+
+                <div class="reviews__item">
+                    <p class="reviews__text">Какое счастье - сопровождение дизайнера, когда тебе не нужно
+                    носиться в поисках плитки, мебели, материалов
+                    и так далее. Это очень экономит время!</p>
+                    <p class="reviws__user">Александра Р.</p>
+                </div>
+
+                <div class="reviews__item">
+                    <p class="reviews__text">Большое спасибо
+                    за чудесную работу!
+                    Дизайн получился очень крутой. С вами легко сотрудничать. Вы улавливаете все наши мысли и желания.</p>
+                    <p class="reviws__user">@sokolova_v</p>
+                </div>
+
+                <div class="reviews__item">
+                    <p class="reviews__text">В вашей команде отменные специалисты, обладающие
+                    очень тонким вкусом
+                    и чувством стиля
+                    Все четко, продуманно, вовремя.</p>
+                    <p class="reviws__user">Мария Л.</p>
+                </div>
+
+                <div class="reviews__item">
+                    <p class="reviews__text">Благодарю студию за понимание идеи, за красоту и чуткость. Своевременное исполнение
+                    и соблюдение сроков.
+                    За качественный
+                    и проработанный дизайн.</p>
+                    <p class="reviws__user">@valeriya</p>
+                </div>
+
+                <button type = "button" class="reviews__button button button_dark">Смотреть все отзывы</button>
+
+            </div>  
+        </section>
+    
+        <section class="projects-instagram">
+            <div class="projects-instagram__container">
+
+                <h2 class="projects-instagram__title">Наши проекты в Instagram</h2>
+
+                <div class="projects-instagram__gallery gallery">
+                    <a href="images/content/bedroom-and-dressing-room.jpg" data-lightbox="insta-images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/bedroom-and-dressing-room.jpg" alt="bedroom and dressing room" class="projects-instagram__image">
+                    </a>
+                    <a href="images/content/bar-counter-brown.jpg" data-lightbox="insta-images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/bar-counter-brown.jpg" alt="bar counter brown" class="projects-instagram__image">
+                    </a>
+                    <a href="images/content/bedroom-brown.jpg" data-lightbox="insta-images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/bedroom-brown.jpg" alt="bedroom brown" class="projects-instagram__image">
+                    </a>
+                    <a href="images/content/kitchen-and-living-room-dark-green.jpg" data-lightbox="insta-images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/kitchen-and-living-room-dark-green.jpg" alt="kitchen and living room dark-green" class="projects-instagram__image">
+                    </a>
+                    <a href="images/content/kitchen-and-living-room-white.jpg" data-lightbox="insta-images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/kitchen-and-living-room-white.jpg" alt="kitchen and living room white" class="projects-instagram__image">
+                    </a>
+                    <a href="images/content/childrens-room-work-zone-blue.jpg" data-lightbox="insta-images-set" data-title='ЖК "Олимпик Парк"'>
+                        <img src="images/content/childrens-room-work-zone-blue.jpg" alt="blue work zone in children's room" class="projects-instagram__image">
+                    </a>
+                </div>  
+
+                <div class="projects-instagram__links">
+                    <a href="#" target="_blank"><span class="icon-footer-instagram"></span>design.house</a>
+                    <button type = "button" class="button button_white button_small">Подписаться</button>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="feedback__container">
+                <form class="feedback__form form">
+                    <h2 class="form__title">Нужна консультация?</h2>
+                    <input id="name" name="name" type="text" placeholder="Как к вам обращаться">
+                    <input id="tel" name="tel" type="tel" pattern="+375[0-9]{7}" placeholder="Номер телефона">
+                    <button type = "button" class="form__button button button_dark">Заказать звонок</button>
+                </form> 
+            </div>
+        </section>
+
+    </main> 
+
+    <footer class="footer">
+        <div class="footer__container">
+    
+            <div class="footer__body">            
+                <div class="footer__left-column">
+                    <a href="index.html" class="footer__logo"><img src="images/logo.svg" alt="logo"></a>
+                </div>
+                    
+                <nav class="footer__menu footer-menu">
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">О нас</a></li>
+                        <li class="footer-menu__item"><a href="services.html" class="footer-menu__link">Услуги</a></li>
+                        <li class="footer-menu__item"><a href="portfolio.html" class="footer-menu__link">Портфолио</a></li>
+                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Цены</a></li>
+                        <li class="footer-menu__item"><a href="contacts.html" class="footer-menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+    
+                <div class="footer__socials socials">
+                    <ul class="socials__list">
+                        <li class="socials__item"><a href="mailto:design.house@gmail.com" class="socials__link"><span class="icon-footer-email"></span>design.house@gmail.com</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-instagram"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-vk"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-telegram"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-pinterest"></span>design.house</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer__contacts">
+                    <a href="tel:+375291111111" class="phone"><span class="icon-footer-tel"></span>+375 (29) 111-11-11</a>
+                    <a href="tel:+375292222222" class="phone"><span class="icon-footer-tel"></span>+375 (29) 222-22-22</a>
+                    <a href="https://yandex.by/maps/157/minsk/?ll=27.466071%2C53.941018&amp;mode=search&amp;oid=169758298257&amp;ol=biz&amp;sll=27.466071%2C53.941018&amp;source=morda&amp;text=rhome&amp;z=16"
+                    target="_blank" class="adress"><span class="icon-footer-location"></span>Адрес: г. Минск, пр. Победителей</a>
+                </div>
+            </div> 
+    
+            <p class="footer__copy">&copy; 2023 Студия интерьера<br>Design House, все права защищены</p>
+    
+        </div> 
+    </footer>
+
+    <div class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <button type = "button" class="popup__close" onclick="closeModalWindow();">	
+                &#128937;</button>
+            <form class="popup__form form">
+                <h2 class="form__title">Расскажите немного о своем объекте</h2>
+                <input id="object" name="object" type="text" placeholder="Тип объекта">
+                <input id="area" name="area" type="text" placeholder="Площадь (кв.м.)">
+                <textarea placeholder="Описание: ваши пожелания, ограничения по бюджету и прочее" id="textarea" name="textarea" cols="40" rows="5"></textarea>
+                <input id="name" name="name" type="text" placeholder="Ваше имя">
+                <input id="tel" name="tel" type="tel" pattern="+375[0-9]{7}" placeholder="Номер телефона">
+                <input id="url" name="url" type="url" placeholder="Электронная почта">
+                <button type = "button" class="form__button button button_dark">Отправить</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <div class="to-top"></div>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

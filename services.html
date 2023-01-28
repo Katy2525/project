@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги cтудии дизайна интерьера Design House</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Montserrat:ital,wght@0,500;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container"> 
+
+            <a href="index.html" class="header__logo">
+                <img src="images/logo.svg" alt="logo">
+            </a>  
+            
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__link">О нас</a></li>
+                        <li><a href="services.html" class="menu__link">Услуги</a></li>
+                        <li><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+                        <li><a href="#" class="menu__link">Цены</a></li>
+                        <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div> 
+
+            <button type = "button" onclick="openModalWindow();" class="header__button button button_dark button_small">Заказать дизайн</button>   
+        
+        </div>  
+    </header>
+
+    <main class="page page-services">
+        <div class="page-services__container">
+
+            <div class="page-services__row services-row">
+
+                <div class="services-row__body">
+                    <h2 class="services-row__title">Наши услуги</h2>
+                    <p class="services-row__text">Более 15 лет мы работаем в сфере проектирования дизайна интерьеров жилых и коммерческих помещений Минска</p>
+                    <p class="services-row__text">В студии интерьера Design House вы можете заказать:</p>
+                    <ul class="services-row__list">
+                        <li><a href="services.html#design">Дизайн интерьера</a></li>
+                        <li><a href="services.html#finishing">Отделочные работы</a></li>
+                        <li><a href="services.html#projection">Архитектурное проектирование</a></li>
+                        <li><a href="services.html#redevelopment">Согласование перепланировки</a></li>
+                        <li><a href="services.html#supervision">Авторский надзор</a></li>
+                        <li><a href="services.html#decor">Декорирование интерьера</a></li>
+                    </ul>
+                </div>
+                <div class="services-row__image"></div>
+
+            </div>
+
+            <a id="design"></a>
+            <div class="services-row wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
+
+                <div class="services-row__body">
+                    <h3 class="services-row__subtitle">Дизайн интерьера</h3>
+                    <p class="services-row__text">Design House — уникальный дизайн интерьера и индивидуальный подход.
+                        Коллектив нашей студии состоит из профессионалов, которые рады помочь выразить неповторимый дух и образ свойственный
+                        только Вам.</p>
+                    <a href="#" class="services-row__button button button_white button_small">Подробнее</a>
+                </div>
+                <div class="services-row__image"></div> 
+
+            </div>
+
+            <a id="finishing"></a>
+            <div class="services-row">
+
+                <div class="services-row__body">
+                    <h3 class="services-row__subtitle">Отделочные работы</h3>
+                    <p class="services-row__text">Мы предлагаем широкий спектр строительных, ремонтных
+                        и отделочных работ. Наши цены на отделочные работы
+                        демократичны и доступны. Вы можете убедиться в этом,
+                        просмотрев представленный ниже прайс-лист.</p>
+                    <a href="#" class="services-row__button button button_white button_small">Подробнее</a>
+                </div>
+
+                <div class="services-row__image"></div> 
+
+            </div> 
+        
+            <a id="projection"></a>
+            <div class="services-row wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">   
+
+                <div class="services-row__body">
+                    <h3 class="services-row__subtitle">Архитектурное проектирование</h3>
+                    <p class="services-row__text">Создадим эскизные и полные архитектурные проекты с дизайнерской точки зрения. На начальном
+                        этапе учтем все нюансы
+                        планировки и эргономики, чтобы в будущем Вы избежали лишних затрат на реорганизацию построенного дома.</p>
+                    <a href="#" class="services-row__button button button_white button_small">Подробнее</a>
+                </div>
+
+                <div class="services-row__image"></div>
+
+            </div>
+
+            <a id="redevelopment"></a>
+            <div class="services-row">
+
+                <div class="services-row__body">
+                    <h3 class="services-row__subtitle">Согласование перепланировки</h3>
+                    <p class="services-row__text">Избавим Вас от необходимости разбираться в огромном количестве документов и лишней
+                        волокиты.
+                        Подготовим проектную документацию, согласуем перепланировку и переоборудование квартир и нежилых помещений.</p>
+                    <a href="#" class="services-row__button button button_white button_small">Подробнее</a>
+                </div>
+                
+                <div class="services-row__image"></div>
+
+            </div>
+
+            <a id="supervision"></a>
+            <div class="services-row wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">
+
+                <div class="services-row__body">
+                    <h3 class="services-row__subtitle">Авторский надзор</h3>
+                    <p class="services-row__text">Благодаря авторскому надзору мы обеспечиваем реализацию Вашего проекта в том виде, в
+                        котором он был спроектирован.
+                        Осуществляем надзор на протяжении всего срока проведения отделочных работ. От начала и до завершения.</p>
+                    <a href="#" class="services-row__button button button_white button_small">Подробнее</a>
+                </div>
+
+                <div class="services-row__image"></div>
+
+            </div>
+
+            <a id="decor"></a>
+            <div class="services-row">
+
+                <div class="services-row__body">
+                    <h3 class="services-row__subtitle">Декорирование интерьера</h3>
+                    <p class="services-row__text">Грамотное декорирование помещения позволяет создать единое гармоничное пространство, в
+                        котором все декоративные элементы
+                        четко подобраны друг к другу, а акценты расставлены в нужных местах.
+                        Именно на стадии декорирования интерьер становится целостным произведением дизайнерского искусства.</p>
+                    <a href="decoration.html" class="services-row__button button button_white button_small">Подробнее</a>
+                </div>  
+
+                <div class="services-row__image"></div> 
+
+            </div>
+
+            <div class="services-row wow fadeInLeft" data-wow-duration="2s" data-wow-offset="200">  
+
+                <div class="services-row__body">
+                    <form class="services-row__form form">
+                        <h2 class="form__title">Расскажите нам о своем проекте</h2>
+                        <p>Разрешите нам познакомиться с вами и узнать о вашем проекте. Мы подготовим для вас индивидуальное предложение.</p>
+                        <input id="name" name="name" type="text" placeholder="Как к вам обращаться">
+                        <input id="tel" name="tel" type="tel" pattern="+375[0-9]{7}" placeholder="Номер телефона">
+                        <textarea placeholder="Ваше сообщение" id="textarea" name="textarea" cols="40" rows="5"></textarea>
+                        <button type = "button" class="form__button button button_dark">Отправить сообщение</button>
+                    </form>
+                </div>
+
+                <div class="services-row__image"></div>
+
+            </div>
+
+        </div>  
+    </main>
+
+            
+    <footer class="footer">
+        <div class="footer__container">
+    
+            <div class="footer__body">            
+                <div class="footer__left-column">
+                    <a href="index.html" class="footer__logo"><img src="images/logo.svg" alt="logo"></a>
+                </div>
+                    
+                <nav class="footer__menu footer-menu">
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">О нас</a></li>
+                        <li class="footer-menu__item"><a href="services.html" class="footer-menu__link">Услуги</a></li>
+                        <li class="footer-menu__item"><a href="portfolio.html" class="footer-menu__link">Портфолио</a></li>
+                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Цены</a></li>
+                        <li class="footer-menu__item"><a href="contacts.html" class="footer-menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+    
+                <div class="footer__socials socials">
+                    <ul class="socials__list">
+                        <li class="socials__item"><a href="mailto:design.house@gmail.com" class="socials__link"><span class="icon-footer-email"></span>design.house@gmail.com</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-instagram"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-vk"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-telegram"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-pinterest"></span>design.house</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer__contacts">
+                    <a href="tel:+375291111111" class="phone"><span class="icon-footer-tel"></span>+375 (29) 111-11-11</a>
+                    <a href="tel:+375292222222" class="phone"><span class="icon-footer-tel"></span>+375 (29) 222-22-22</a>
+                    <a href="https://yandex.by/maps/157/minsk/?ll=27.466071%2C53.941018&amp;mode=search&amp;oid=169758298257&amp;ol=biz&amp;sll=27.466071%2C53.941018&amp;source=morda&amp;text=rhome&amp;z=16"
+                    target="_blank" class="adress"><span class="icon-footer-location"></span>Адрес: г. Минск, пр. Победителей</a>
+                </div>
+            </div> 
+    
+            <p class="footer__copy">&copy; 2023 Студия интерьера<br>Design House, все права защищены</p>
+    
+        </div> 
+    </footer>
+    
+    <div class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <button type = "button" class="popup__close" onclick="closeModalWindow();">	
+                    &#128937;</button>
+                <form class="popup__form form">
+                    <h2 class="form__title">Расскажите немного о своем объекте</h2>
+                    <input id="object" name="object" type="text" placeholder="Тип объекта">
+                    <input id="area" name="area" type="text" placeholder="Площадь (кв.м.)">
+                    <textarea placeholder="Описание: ваши пожелания, ограничения по бюджету и прочее" id="textarea" name="textarea" cols="40" rows="5"></textarea>
+                    <input id="name" name="name" type="text" placeholder="Ваше имя">
+                    <input id="tel" name="tel" type="tel" pattern="+375[0-9]{7}" placeholder="Номер телефона">
+                    <input id="url" name="url" type="url" placeholder="Электронная почта">
+                    <button type = "button" class="form__button button button_dark">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="to-top"></div>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+        
+</body>
+</html>

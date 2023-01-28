@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Декорирование интерьера | Студия дизайна интерьера Design House</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Montserrat:ital,wght@0,500;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container"> 
+
+            <a href="index.html" class="header__logo">
+                <img src="images/logo.svg" alt="logo">
+            </a>  
+            
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__link">О нас</a></li>
+                        <li><a href="services.html" class="menu__link">Услуги</a></li>
+                        <li><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+                        <li><a href="#" class="menu__link">Цены</a></li>
+                        <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div> 
+
+            <button type = "button" onclick="openModalWindow();" class="header__button button button_dark button_small">Заказать дизайн</button>   
+
+        </div>  
+    </header>
+
+    <main class="page page-decoration">
+
+        <section class="decoration__top-box top-box">
+            <div class="top-box__container">
+                <div class="top-box__body">
+                    <h2 class="top-box__title">Декорирование интерьера</h2>
+                    <p class="top-box__text">Грамотное декорирование помещения позволяет создать единое гармоничное пространство, 
+                        в котором все декоративные элементы четко подобраны друг к другу, а акценты расставлены в нужных местах.<br><br>
+                        Именно на стадии декорирования интерьер становится целостным произведением дизайнерского искусства.</p>   
+                </div>
+                <div class="top-box__image"></div>
+            </div>
+        </section>
+
+        <section class="decoration__elements-decor elements-decor">
+            <div class="elements-decor__container">
+
+                <h2 class="elements-decor__title">Студия дизайна интерьера Design House консультирует
+                    по подбору всех элементов декора</h2>
+
+                <div class="elements-decor__item">
+                    <span class="elements-decor__icon">
+                        <img src="images/icons/luster.svg" alt="luster" class="wow zoomIn" data-wow-offset="200">
+                    </span>
+                    <h3 class="elements-decor__subtitle">Освещение</h3>
+                    <ul class="elements-decor__list">
+                        <li>настольные лампы</li>
+                        <li>люстры</li>
+                        <li>торшеры</li>
+                        <li>бра</li>
+                    </ul>
+                </div>
+
+                <div class="elements-decor__item">
+                    <span class="elements-decor__icon">
+                        <img src="images/icons/floor.svg" alt="floor" class="wow zoomIn" data-wow-offset="200">
+                    </span>
+                    <h3 class="elements-decor__subtitle">Флористика</h3>
+                    <ul class="elements-decor__list">
+                        <li>комнатные растения</li>
+                        <li>деревья</li>
+                        <li>цветы</li>
+                    </ul>
+                </div>
+
+                <div class="elements-decor__item">
+                    <span class="elements-decor__icon ">
+                        <img src="images/icons/food.svg" alt="food" class="wow zoomIn" data-wow-offset="200">
+                    </span>
+                    <h3 class="elements-decor__subtitle">Столовые приборы</h3>
+                    <ul class="elements-decor__list">
+                        <li>столовые приборы</li>
+                        <li>сервизы</li>
+                    </ul>
+                </div>
+
+                <div class="elements-decor__item">
+                    <span class="elements-decor__icon">
+                        <img src="images/icons/pillow.svg" alt="pillow" class="wow zoomIn" data-wow-offset="200">
+                    </span>
+                    <h3 class="elements-decor__subtitle">Домашний текстиль</h3>
+                    <ul class="elements-decor__list">
+                        <li>декоративные подушки</li>
+                        <li>постельное белье</li>
+                        <li>покрывала</li>
+                        <li>скатерти</li>
+                    </ul>
+                </div>
+
+                <div class="elements-decor__item">
+                    <span class="elements-decor__icon">
+                        <img src="images/icons/frame.svg" alt="frame" class="wow zoomIn" data-wow-offset="200">
+                    </span>
+                    <h3 class="elements-decor__subtitle">Арт-объекты</h3>
+                    <ul class="elements-decor__list">
+                        <li>репродукции</li>
+                        <li>скульптуры</li>
+                        <li>картины</li>
+                        <li>вазы</li>
+                    </ul>
+                </div>
+
+                <div class="elements-decor__item">
+                    <span class="elements-decor__icon">
+                        <img src="images/icons/jalousie.svg" alt="jalousie" class="wow zoomIn" data-wow-offset="200">
+                    </span>
+                    <h3 class="elements-decor__subtitle">Гардины и жалюзи</h3>
+                    <ul class="elements-decor__list">
+                        <li>текстиль</li>
+                        <li>гардины</li>
+                        <li>жалюзи</li>
+                        <li>шторы</li>
+                    </ul>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="decoration__price-box price-box">
+            <div class="price-box__container">
+
+                <div class="price-box__image"></div>
+                <div class="price-box__body">
+                    <h2 class="price-box__title">Стоимость декорирования
+                        интерьера квартиры</h2>
+                    <p class="price-box__text">от 100&#36; / кв.м. для интерьеров квартир Минска</p>
+                    <p class="price-box__text text_green">Журнальная фотосессия декорированной квартиры в подарок!</p>
+                    <button type = "button" class="price-box__button button button_dark">Заказать декорирование</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="decoration__feedback feedback">
+            <div class="feedback__container">
+
+                <form class="feedback__form form">
+                    <h2 class="feedback__title">Нужна консультация?</h2>
+                    <input id="name" name="name" type="text" placeholder="Как к вам обращаться">
+                    <input id="tel" name="tel" type="tel" pattern="+375[0-9]{7}" placeholder="Номер телефона">
+                    <button type = "button" class="feedback__button button button_dark">Заказать звонок</button>
+                </form>
+                
+                <div class="feedback__image"></div>
+
+            </div>
+        </section>
+    
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+    
+            <div class="footer__body">            
+                <div class="footer__left-column">
+                    <a href="index.html" class="footer__logo"><img src="images/logo.svg" alt="logo"></a>
+                </div>
+                    
+                <nav class="footer__menu footer-menu">
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">О нас</a></li>
+                        <li class="footer-menu__item"><a href="services.html" class="footer-menu__link">Услуги</a></li>
+                        <li class="footer-menu__item"><a href="portfolio.html" class="footer-menu__link">Портфолио</a></li>
+                        <li class="footer-menu__item"><a href="#" class="footer-menu__link">Цены</a></li>
+                        <li class="footer-menu__item"><a href="contacts.html" class="footer-menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+    
+                <div class="footer__socials socials">
+                    <ul class="socials__list">
+                        <li class="socials__item"><a href="mailto:design.house@gmail.com" class="socials__link"><span class="icon-footer-email"></span>design.house@gmail.com</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-instagram"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-vk"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-telegram"></span>design.house</a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><span class="icon-footer-pinterest"></span>design.house</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer__contacts">
+                    <a href="tel:+375291111111" class="phone"><span class="icon-footer-tel"></span>+375 (29) 111-11-11</a>
+                    <a href="tel:+375292222222" class="phone"><span class="icon-footer-tel"></span>+375 (29) 222-22-22</a>
+                    <a href="https://yandex.by/maps/157/minsk/?ll=27.466071%2C53.941018&amp;mode=search&amp;oid=169758298257&amp;ol=biz&amp;sll=27.466071%2C53.941018&amp;source=morda&amp;text=rhome&amp;z=16"
+                    target="_blank" class="adress"><span class="icon-footer-location"></span>Адрес: г. Минск, пр. Победителей</a>
+                </div>
+            </div> 
+    
+            <p class="footer__copy">&copy; 2023 Студия интерьера<br>Design House, все права защищены</p>
+    
+        </div> 
+    </footer>
+
+    <div class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <button type = "button" class="popup__close" onclick="closeModalWindow();">	
+                    &#128937;</button>
+                <form class="popup__form form">
+                    <h2 class="form__title">Расскажите немного о своем объекте</h2>
+                    <input id="object" name="object" type="text" placeholder="Тип объекта">
+                    <input id="area" name="area" type="text" placeholder="Площадь (кв.м.)">
+                    <textarea placeholder="Описание: ваши пожелания, ограничения по бюджету и прочее" id="textarea" name="textarea" cols="40" rows="5"></textarea>
+                    <input id="name" name="name" type="text" placeholder="Ваше имя">
+                    <input id="tel" name="tel" type="tel" pattern="+375[0-9]{7}" placeholder="Номер телефона">
+                    <input id="url" name="url" type="url" placeholder="Электронная почта">
+                    <button type = "button" class="form__button button button_dark">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="to-top"></div>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
